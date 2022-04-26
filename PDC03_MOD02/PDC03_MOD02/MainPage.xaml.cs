@@ -18,5 +18,17 @@ namespace PDC03_MOD02
         {
             await Navigation.PushAsync(new activity1());
         }
+        private async void OnSecondActivity(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new activity2());
+        }
+        private async void OnThirdActivity(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new activity3());
+        }
+        private async void OnFourthActivity(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new activity4());
+        }
     }
 }

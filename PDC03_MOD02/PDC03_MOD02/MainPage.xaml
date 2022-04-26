@@ -4,13 +4,20 @@
              x:Class="PDC03_MOD02.MainPage">
 
     <StackLayout>
-        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+        <Frame BackgroundColor="#2196F3" Padding="20" CornerRadius="0">
             <Label Text="Welcome!" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
         </Frame>
         <Label Text="PDC03 Module 2 Activities!" FontSize="Title" Padding="30,10,30,10" HorizontalOptions="CenterAndExpand"/>
 
         <Button Text="Activity 1" Clicked="OnFirstActivity"
                 BackgroundColor="LightBlue"/>
+        <Button Text="Activity 2" Clicked="OnSecondActivity"
+                BackgroundColor="LightBlue"/>
+        <Button Text="Activity 3" Clicked="OnThirdActivity"
+                BackgroundColor="LightBlue"/>
+        <Button Text="Activity 4" Clicked="OnFourthActivity"
+                BackgroundColor="LightBlue"/>
+
     </StackLayout>
 
 </ContentPage>

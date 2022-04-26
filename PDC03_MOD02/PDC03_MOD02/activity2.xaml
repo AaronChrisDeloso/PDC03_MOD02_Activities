@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PDC03_MOD02.activity2" Title="XAML and Code Interactions">
+    <ContentPage.Content>
+        <StackLayout>
+            <Slider VerticalOptions="CenterAndExpand"
+                    ValueChanged="Slider_ValueChanged"
+                    Rotation="-90"/>
+
+            <Label x:Name="valuelabel"
+                   Text="Slider's Value"
+                   FontSize="Large"
+                   HorizontalOptions="CenterAndExpand"
+                   VerticalOptions="Center"
+                   />
+
+            <Button Text="Click Me" Clicked="OnButtonClicked"
+                    BackgroundColor="LightBlue"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
